@@ -1,0 +1,1 @@
+let g = (\f -> (fix (\d -> (\e -> if (e == f) then True else if ((f % e) == 0) then False else (d $ (e + 1)))) $ 2)) in let h = fix (\d -> (\e -> if (e < 2) then 1 else ((d $ (e - 1)) + (d $ (e - 2))))) in (fix (\d -> (\e -> if ((e > 30) & (g $ (h $ e))) then e else (d $ (e + 1)))) $ 2)

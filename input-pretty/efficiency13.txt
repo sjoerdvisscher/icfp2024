@@ -1,0 +1,1 @@
+(let b = \d -> \e -> if (e == "") then 0 else (1 + (d $ (1 D e))) in let c = \c -> (b $ (c $ c)) in (b $ (c $ c)) $ let c = \b -> (b . b) in ((c $ (c $ (c $ (c $ (c $ (c $ (c $ (c $ (c $ (c $ (c $ (c $ (c $ (c $ (c $ (c $ (c $ (c $ (c $ (c $ (c $ (c $ (c $ (c $ (c $ (c $ (c $ (c $ "na")))))))))))))))))))))))))))) . "heyjude"))

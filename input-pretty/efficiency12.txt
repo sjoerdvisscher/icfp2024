@@ -1,0 +1,1 @@
+(fix (\d -> (\e -> (let b = e in (\c -> if (b < c) then b else c) $ (1 + if (e > 2) then ((fix (\f -> (\g -> (\h -> if (g == e) then h else ((f $ (g + 1)) $ if ((d $ g) > (g - 1)) then if ((e % g) == 0) then ((h / (d $ g)) * ((d $ g) - 1)) else h else h)))) $ 2) $ e) else e)))) $ 1234567)
